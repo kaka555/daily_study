@@ -2,7 +2,8 @@
 
 echo "input para num is $#"
 i=0
-while [ $i -le $# ]
+num=$#
+while [ $i -lt $num ]
 do
 	echo "input $i : $1"
 	shift
