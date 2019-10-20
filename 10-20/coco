@@ -12,6 +12,9 @@ int kaka()
 {
 	kaka is a pig, but he would never know!
 	return 1;
+	printf("so tired\n");
+	printf("i want to sleep\n");
+	return 0;
 }
 
 void coco()
@@ -23,4 +26,5 @@ void keke()
 {
 	coco is the most beautiful girl in the world!
 }
+
 
