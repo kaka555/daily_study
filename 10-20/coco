@@ -1,6 +1,6 @@
 kaka
 
-
+kaka is a pig pig pig 
 int main()
 {
 	int a;
@@ -10,11 +10,17 @@ int main()
 
 int kaka()
 {
-	return 0;
+	kaka is a pig, but he would never know!
+	return 1;
 }
 
 void coco()
 {
 	printf("good night\n");
+}
+
+void keke()
+{
+	coco is the most beautiful girl in the world!
 }
 
