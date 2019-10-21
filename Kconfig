@@ -1,0 +1,19 @@
+menuconfig KAKA_CUSTOMIZED
+    bool "enable kaka customized"
+    help
+        selete this to build kaka's codes
+
+if KAKA_CUSTOMIZED
+
+config KAKA_CUSTOMIZED_TEST_KO
+    tristate "test module"
+    default n
+    help
+        selete this to build kaka's codes
+
+endif  # KAKA_CUSTOMIZED
+#endmenu
+
+obj-$(CONFIG_KAKA_CUSTOMIZED_TEST_KO) += test.o
+
+obj-y += kaka/
